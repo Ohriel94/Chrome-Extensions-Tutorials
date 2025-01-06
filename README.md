@@ -74,8 +74,6 @@ A Chrome extension consists of several files and directories:
 -  The only required keys are `manifest_version`, `name`, and `version`.
 -  Supports comments (`//`), but these must be removed before uploading the code to the Chrome Web Store.
 
-## 2 - Execute scripts on every page (_2-ReadingTime_)
-
 ### Provide the icons
 
 If you want distribute an extension on the Chrome Web Store, you'll have to add icons. You can add the images in a dedicated folder and then declare them in the manifest :
@@ -124,4 +122,4 @@ Add the following code to the `manifest.json` to register a content script calle
 
 The `"matches"` field can have one or more [match patterns](https://developer.chrome.com/docs/extensions/develop/concepts/match-patterns). These allow the browser to identify which sites to inject the content scripts into. Match patterns consist of three parts: `<scheme>://<host><path>`. They can contain `'*'` characters.
 
-## Dive deeper
+## II - Dive deeper
